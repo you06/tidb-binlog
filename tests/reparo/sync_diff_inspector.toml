@@ -33,7 +33,7 @@ password = ""
 
 [[source-db]]
 host = "127.0.0.1"
-port = 4000
+port = 4010
 user = "root"
 password = ""
 instance-id = "source-1"

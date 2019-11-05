@@ -34,7 +34,7 @@ type = "mysql"
 host = "127.0.0.1"
 user = "root"
 password = ""
-port = 4000
+port = 4010
 
 [syncer.to]
 topic-name = "binlog_test_topic"

@@ -32,7 +32,7 @@ run_pump 8251 &
 sleep 5
 
 echo "Verifying TiDB is alive..."
-mysql -uroot -h127.0.0.1 -P4000 --default-character-set utf8 -e 'select * from mysql.tidb;'
+mysql -uroot -h127.0.0.1 -P4010 --default-character-set utf8 -e 'select * from mysql.tidb;'
 if [ $? -ne 0 ]; then
     echo "TiDB is not alive!"
     exit 1

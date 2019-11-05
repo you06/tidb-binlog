@@ -32,7 +32,7 @@ stop_services() {
 }
 
 start_upstream_tidb() {
-    port=${1-4000}
+    port=${1-4010}
     echo "Starting TiDB at port: $port..."
     tidb-server \
         -P $port \
@@ -116,7 +116,7 @@ EOF
 
     sleep 5
 
-    start_upstream_tidb 4000
+    start_upstream_tidb 4010
     start_upstream_tidb 4001
 
     echo "Starting Downstream TiDB..."

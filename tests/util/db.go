@@ -129,7 +129,7 @@ func CreateSourceDBs() (dbs []*sql.DB, err error) {
 		User:     "root",
 		Password: "",
 		Name:     "test",
-		Port:     4000,
+		Port:     4010,
 	}
 
 	src1, err := CreateDB(cfg)
@@ -154,7 +154,7 @@ func CreateSourceDB() (db *sql.DB, err error) {
 		User:     "root",
 		Password: "",
 		Name:     "test",
-		Port:     4000,
+		Port:     4010,
 	}
 
 	return CreateDB(cfg)

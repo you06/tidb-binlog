@@ -48,7 +48,7 @@ The script should exit with a nonzero error code on failure.
 Serveral convenient commands are provided:
 
 - `run_drainer`  Starts `drainer` using tests/TEST_NAME/drainer.toml (notice it may continue at the checkpoint from the last test case)
-- `run_sql <SQL>` Executes an SQL query on the TiDB database(port 4000)
+- `run_sql <SQL>` Executes an SQL query on the TiDB database(port 4010)
 - `down_run_sql <SQL>` Executes an SQL query on the downstream TiDB database(port 3306)
 
 - `check_contains <TEXT>` — Checks if the previous `run_sql` result contains the given text
