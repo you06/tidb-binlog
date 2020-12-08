@@ -42,7 +42,7 @@ import (
 )
 
 const (
-	maxTxnTimeoutSecond int64 = 600
+	maxTxnTimeoutSecond int64 = 10
 	chanCapacity              = 1 << 20
 	// if pump takes a long time to write binlog, pump will display the binlog meta information (unit: Second)
 	slowWriteThreshold               = 1.0
